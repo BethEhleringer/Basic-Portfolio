@@ -7,7 +7,7 @@ body {
 
 header {
     width: 100%;
-    padding: 10px 0px;
+    padding: 25px 0px;
     margin-bottom:20px;
     position: relative;
     display:block;
@@ -26,13 +26,16 @@ h1{
 color: #FFF;
 font-family: 'Georgia', Times, 'Times New Roman', serif;
 background-color:#4aaaa5;
-padding:10px;
+margin-left:0px;
+padding:25px 20px;
 display:inline;
 }
 
 h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
+    margin:20px;
+    /*padding: 10px 0px;*/
 }
 
 .logo {
@@ -53,10 +56,14 @@ span {
 
 p {
     color: #777;
+    margin: 0px 20px 20px 20px;
 }
 
 footer {
     background-color: #666;
+    width:960px;
+    height: 50px;
+    border-top:solid 4px #4aaaa5;
 }
 
 form {
@@ -67,7 +74,7 @@ form {
 .wrapper {
     width:960px;
     margin:0px auto;
-    padding:20px;
+    padding:0px;
     background-color:#f00;
 }
 
@@ -81,9 +88,13 @@ form {
     border: solid 1px #ddd;
 }
 
+article {
+    margin: 20px;
+}
+
 .main img {
     float: left;
-    margin:10px;
+    margin:0px 20px 20px 20px;
 }
 
 nav {
